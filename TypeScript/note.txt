@@ -1,0 +1,62 @@
+/* Function sum using TS
+function sum(a: number, b:number) {
+  return a + b;
+}
+
+console.log(sum(5,5))
+*/
+
+/* Intefaces */
+/**
+interface IAnimal {
+  name: string;
+  type: 'terrestre' | 'aquático';
+}
+
+interface IFelinos extends IAnimal {
+  visaoNoturna: boolean;
+  executarRugido(volume: number): void;
+}
+
+const animal: IAnimal = {
+  name: 'Elefante',
+  type: "terrestre"
+}
+
+const felino: IFelinos = {
+  name: 'Leopardo',
+  type: "terrestre",
+  visaoNoturna: true,
+  executarRugido: (volume) => (`${volume} db`) 
+}
+
+felino.executarRugido(30)
+ */
+
+/* Types*/
+/**
+type IDomestico = IFelino | ICanino;
+*/
+
+/* Generic types*/
+/**
+ function adicionaApendiceALista<T>(array: any[], valor: T) {
+   return array.map(item => item + valor);
+ }
+
+ adicionaApendiceALista(['A', 'B', 'C'], 'd');
+*/
+
+/* Condicionais em parametros */
+/**
+/*  if ('cargo' in funcionario) */
+/* cargo? */
+*/
+
+/* readonly - private -> -?  iterar cada obj*/
+
+/*importar bibliotecas com ts*/
+/**
+  files: typing.d.ts
+  tsconfig.json
+*/
