@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Button from '../Button'
 
 const Card = () => {
-  var [valor, setValor] = useState(0)
+  const [valor, setValor] = useState(0)
 
   function increment(){
     setValor(valor + 1);
